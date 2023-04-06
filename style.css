@@ -1,0 +1,91 @@
+body{
+    background-image: url(/assets/background.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    background-color: #181818;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px auto auto auto;
+    padding: 50px;
+}
+
+/* Logo e Titolo */
+.logo{
+    display: block;
+    margin:auto;
+    width: 25%;
+}
+
+.title{
+    color: rgb(16, 218, 16);
+    font-size: 20px;
+    font-weight:light;
+    text-align: center;
+    margin: 5px auto 2px auto;
+}
+
+/* Navigazione */
+.navigation{
+    background-color: rgb(16, 218, 16);
+    box-sizing: border-box;
+    width: 95%;
+    padding: 1%;
+    text-align: center;
+}
+
+.nav-button{
+    font-size: 9px;
+}
+
+
+/* Checkbox Noleggio Monopattini */
+
+label, text{
+    color: white;
+}
+
+input{
+    margin-top: 25px;
+}
+
+input[type='checkbox'] {
+    width:10px;
+    height:10px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+text{
+    font-size: 0.7em;
+}
+
+main .chargebar{
+    border-radius: 5px;
+}
+
+main .charge-1{
+    height: 20px;
+    width: 250px;
+    background-color: rgb(238, 173, 76);
+}
+
+main .charge-2{
+    height: 20px;
+    width: 450px;
+    background-color: rgb(35, 172, 35);
+}
+
+main .charge-3{
+    height: 20px;
+    width: 80px;
+    background-color: rgb(224, 62, 62);
+}
